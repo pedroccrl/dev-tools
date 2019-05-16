@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Abrindo Visual Studio"
+SLN=`wslpath -w $PWD/$1`
+echo $SLN
+cmd.exe /C start $SLN
